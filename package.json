@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "https://artem-kuznecov.github.io/hero-card-flip/",
 	"scripts": {
 		"sass": "sass public/style.scss public/style.css --no-source-map",
 		"gulp": "gulp watchStyles"
