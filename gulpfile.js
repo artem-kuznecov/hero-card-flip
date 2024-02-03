@@ -15,7 +15,7 @@ const convertStyles = () => {
 }
 
 function watchStyles() {
-	gulp.watch('src/style.scss', { ignoreInitial: false }, function (cb) {
+	gulp.watch('public/style.scss', { ignoreInitial: false }, function (cb) {
 		convertStyles()
 		cb()
 	})
