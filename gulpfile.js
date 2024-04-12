@@ -4,7 +4,7 @@ const gulp = require('gulp')
 const convertStyles = () => {
 	exec('npm run sass', (error, stdout, stderr) => {
 		if (error) {
-			console.log(`error o: ${error.message}`)
+			console.log(`artem loh`)
 			return
 		}
 		if (stderr) {
